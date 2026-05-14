@@ -1,37 +1,31 @@
-# cancer-mind-companion
+# CancerDAO Cancer Mind Companion
 
-一个懂你处境的心理支持伙伴——能做日常情绪疏导，也能在你需要时提供专业心理咨询级别的对话，偶尔还会讲个冷笑话。
+心理支持伙伴 skill。为癌症患者和照护者提供日常情绪陪伴、心理筛查和危机响应。
 
-## 功能
-
-- 日常情绪疏导（焦虑、抑郁、无助、恐惧等）
-- 专业心理咨询级别的对话支持
-- 情绪追踪（PHQ-4 / GAD-4 简化筛查）
-- 持续低落情绪检测与专业帮助转介
-- 危机资源提供（自杀意念 / 自残）
-
-## 触发词
-
-睡不着、焦虑、抑郁、无助、害怕、确诊后、治疗中、康复期、情绪、心情、心理、想哭、撑不住、烦躁
-
-## 安全性
-
-- 不提供临床诊断
-- 持续情绪问题建议寻求专业心理健康支持
-- 非危机热线，急性自杀意念请拨打危机干预热线
-
-## 危机资源
-
-- 北京心理危机干预中心: 010-82951332
-- 全国心理援助热线: 400-161-9995
-- 香港撒玛利亚防止自杀会: 2389 2222
-
-## 安装
+## Install
 
 ```bash
 npx skills add CancerDAO/cancer-mind-companion
 ```
 
-## 评估
+## When to use
 
-See `evals/evals.json` for evaluation cases.
+- 失眠、焦虑、抑郁、无助、恐惧
+- 照护者 burnout
+- 任何持续情绪低落
+
+## Key features
+
+- PHQ-4 / GAD-4 简化筛查
+- 治疗性沟通技巧（Validation、Reflection、Normalization）
+- 危机检测 + 热线资源
+- 照护者 burnout 识别
+- 情绪日志
+
+## References
+
+- `references/phq4-gad4-scales.md`
+- `references/therapeutic-communication.md`
+- `references/crisis-resources-china.md`
+
+MIT — CancerDAO
